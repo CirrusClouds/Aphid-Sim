@@ -94,7 +94,7 @@ class Aphid(Creature):
         e_s_ratio: float = len(environment["aphids"])/environment["aphid_space"]
 
         if e_s_ratio > 1:
-            if random.random() < e_s_ratio - 1:
+            if random.random() < (e_s_ratio -1)**2: # Reduced damping on the harmonics for pop controls
                 delete_creature(self.id, "aphids", environment)
                 return False
 
