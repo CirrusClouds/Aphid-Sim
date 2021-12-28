@@ -3,4 +3,4 @@ Strongly typed natural selection Sim using OOP with Python with (realistic!) plo
 
 Simulate bugs and aphids duking it out and then watch
 
-See the antsvaphids image for plot example
+See the attached image for plot example
